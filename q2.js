@@ -236,11 +236,11 @@ function AR18(){
 
 function AR19(){
     var et19 = document.getElementById("et19").innerHTML;
-    if(et19 === "0"){
+    if(et19 === "0"){		
+		S1();
         document.getElementById("et19").innerHTML="1";
         document.getElementById("rl19").innerHTML="<div class='rele19_ligado'></div>";
 	    document.getElementById("bt19").innerHTML="<a href='/?19d' class='bt19'>DESLIGA</a>";
-		S1();
     } else {
         document.getElementById("et19").innerHTML="0";
         document.getElementById("rl19").innerHTML="<div class='rele19_desligado'></div>";
