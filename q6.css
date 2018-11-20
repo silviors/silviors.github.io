@@ -10,7 +10,8 @@ body {
 #wrapper {
     padding-top: 40px;
     position: relative;
-    	margin-right: auto;
+    width: 360px;
+	margin-right: auto;
 	margin-top: 0;
 	margin-left: auto;
     font-size: 27px;
