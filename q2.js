@@ -238,9 +238,6 @@ function AR19(){
     var et19 = document.getElementById("et19").innerHTML;
     if(et19 === "0"){		
 		S1();
-        document.getElementById("et19").innerHTML="1";
-        document.getElementById("rl19").innerHTML="<div class='rele19_ligado'></div>";
-	    document.getElementById("bt19").innerHTML="<a href='/?19d' class='bt19'>DESLIGA</a>";
     } else {
         document.getElementById("et19").innerHTML="0";
         document.getElementById("rl19").innerHTML="<div class='rele19_desligado'></div>";
@@ -252,6 +249,10 @@ function S1(){
 	senha = prompt("SENHA:");
 if (senha === ".lp9") {
  document.getElementById('pagina').style.display = 'block';
+        document.getElementById("et19").innerHTML="1";
+        document.getElementById("rl19").innerHTML="<div class='rele19_ligado'></div>";
+	    document.getElementById("bt19").innerHTML="<a href='/?19d' class='bt19'>DESLIGA</a>";
+ 
 } else if (senha === "") {
  alert("SENHA OBRIGATORIA");
  window.location = "http://silviors.dlinkddns.com:881"
