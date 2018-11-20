@@ -186,11 +186,11 @@ function AR14(){
     if(et14 === "0"){
         document.getElementById("et14").innerHTML="1";
         document.getElementById("rl14").innerHTML="<div class='rele14_ligado'></div>";
-	document.getElementById("bt14").innerHTML="<a href='/?14d' class='bt14'>DESLIGA</a>";
+	document.getElementById("bt14").innerHTML="<a href='/?14d' class='bt14'>ACIONA</a>";
     } else {
         document.getElementById("et14").innerHTML="0";
         document.getElementById("rl14").innerHTML="<div class='rele14_desligado'></div>";
-        document.getElementById("bt14").innerHTML="<a href='/?14l' class='bt14'>LIGA</a>";
+        document.getElementById("bt14").innerHTML="<a href='/?14l' class='bt14'>ACIONA</a>";
     }
 }
 
