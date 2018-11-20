@@ -247,7 +247,21 @@ function AR19(){
     }
 }
 
-
+function S1(){
+	senha = prompt("SENHA:");
+if (senha === ".lp9") {
+ document.getElementById('pagina').style.display = 'block';
+} else if (senha === "") {
+ alert("SENHA OBRIGATORIA");
+ window.location = "http://silviors.dlinkddns.com:881"
+} else if (senha === "sair") {
+ alert("cancelado");
+ window.location = "www.terra.com.br"
+} else {
+ alert("SENHA ERRADA");
+ window.location = "http://silviors.dlinkddns.com:881"
+}
+}
 
 
 
