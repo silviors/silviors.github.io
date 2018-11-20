@@ -8,8 +8,9 @@ body {
 }
 
 #wrapper {
-    position: absolute;
-    width: 500px;
+    padding-top: 40px;
+    position: relative;
+    width: 360px;
 	margin-right: auto;
 	margin-top: 0;
 	margin-left: auto;
@@ -23,6 +24,7 @@ body {
 
 #dv0 {
 	position: absolute;
+	right: -30px;
 	top: 18px;
     border-radius: 25px;
     border: 2px solid #000000;
