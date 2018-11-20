@@ -239,8 +239,7 @@ function AR19(){
     if(et19 === "0"){
         document.getElementById("et19").innerHTML="1";
         document.getElementById("rl19").innerHTML="<div class='rele19_ligado'></div>";
-	document.getElementById("bt19").innerHTML="<a href='/?19d' class='bt19'>DESLIGA</a>";
-		var nome = prompt('Digite seu nome: ');
+	    document.getElementById("bt19").innerHTML="<a href='/?19d' class='bt19'>DESLIGA</a>";
     } else {
         document.getElementById("et19").innerHTML="0";
         document.getElementById("rl19").innerHTML="<div class='rele19_desligado'></div>";
