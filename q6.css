@@ -8,9 +8,8 @@ body {
 }
 
 #wrapper {
-    padding-top: 40px;
-    position: relative;
-    width: 360px;
+    position: absolute;
+    width: 500px;
 	margin-right: auto;
 	margin-top: 0;
 	margin-left: auto;
