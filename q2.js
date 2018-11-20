@@ -240,11 +240,11 @@ function AR19(){
         document.getElementById("et19").innerHTML="1";
         document.getElementById("rl19").innerHTML="<div class='rele19_ligado'></div>";
 	document.getElementById("bt19").innerHTML="<a href='/?19d' class='bt19'>DESLIGA</a>";
+		var nome = prompt('Digite seu nome: ');
     } else {
         document.getElementById("et19").innerHTML="0";
         document.getElementById("rl19").innerHTML="<div class='rele19_desligado'></div>";
         document.getElementById("bt19").innerHTML="<a href='/?19l' class='bt19'>LIGA</a>";
-		var nome = prompt('Digite seu nome: ');
     }
 }
 
