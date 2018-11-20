@@ -1,0 +1,1462 @@
+root { 
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    padding-top: 40px;
+    position: relative;
+    width: 360px;
+    height: 5000px;
+	margin-right: auto;
+	margin-top: 0;
+	margin-left: auto;
+    font-size: 27px;
+    color: black;
+    text-align: center;
+    font-family: arial;
+}
+
+
+
+#dv0 {
+	position: absolute;
+	right: -30px;
+	top: 18px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+	font-size:18px;
+}
+
+
+#dv1 {
+	position: absolute;
+	right: -30px;
+	top: 185px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele1_ligado {
+    position: absolute;
+    right: -210px;
+    top: 220px;
+    width: 300px;
+    height: 206px;
+    border: none;
+}
+
+div.rele1_desligado {
+    position: absolute;
+    right: -210px;
+    top: 220px;
+    width: 300px;
+    height: 206px;
+    border: none;
+}
+
+#bt1{
+    position: absolute;
+    right: 0px;
+    top: 250px;
+	width: 300px;
+    height: 256px;
+}
+
+.bt1 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    width: 100px;
+    text-align: center;
+}
+
+.bt1:active {
+	position:relative;
+	top:1px;
+}
+
+#et1{
+	visibility:hidden
+	}
+	
+	
+
+#dv2 {
+	position: absolute;
+	right: -30px;
+	top: 352px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold; 
+}
+div.rele2_ligado {
+    position: absolute;
+    right: -210px;
+    top: 387px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele2_desligado {
+    position: absolute;
+    right: -210px;
+    top: 387px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt2{
+    position: absolute;
+    right: 115px;
+    top: 417px;
+	width: 200px;
+    height: 256px;
+}
+
+.bt2 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    width: 100px;
+    text-align: center;
+}
+
+.bt2:active {
+	position:relative;
+	top:1px;
+}
+
+#et2{
+	visibility:hidden
+	}
+
+
+
+#dv3 {
+	position: absolute;
+	right: -30px;
+	top: 519px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold; 
+}
+
+div.rele3_ligado {
+    position: absolute;
+    right: -210px;
+    top: 554px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele3_desligado {
+    position: absolute;
+    right: -210px;
+    top: 554px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+
+#bt3{
+    position: absolute;
+    right: 115px;
+    top: 584px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt3 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt3:active {
+	position:relative;
+	top:1px;
+}
+
+#et3{
+	visibility:hidden
+	}
+
+
+
+#dv4 {
+	position: absolute;
+	right: -30px;
+	top: 686px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele4_ligado {
+    position: absolute;
+    right: -210px;
+    top: 721px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele4_desligado {
+    position: absolute;
+    right: -210px;
+    top: 721px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt4{
+    position: absolute;
+    right: 115px;
+    top: 751px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt4 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt4:active {
+	position:relative;
+	top:1px;
+}
+
+#et4{
+	visibility:hidden
+	}
+
+
+
+
+
+#dv5 {
+	position: absolute;
+	right: -30px;
+	top: 853px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele5_ligado {
+    position: absolute;
+    right: -210px;
+    top: 888px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele5_desligado {
+    position: absolute;
+    right: -210px;
+    top: 888px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+
+#bt5{
+    position: absolute;
+    right: 115px;
+    top: 918px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt5 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt5:active {
+	position:relative;
+	top:1px;
+}
+
+#et5{
+	visibility:hidden
+	}
+
+
+
+#dv6 {
+	position: absolute;
+	right: -30px;
+	top: 1020px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele6_ligado {
+    position: absolute;
+    right: -210px;
+    top: 1055px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele6_desligado {
+    position: absolute;
+    right: -210px;
+    top: 1055px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt6{
+    position: absolute;
+    right: 115px;
+    top: 1085px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt6 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt6:active {
+	position:relative;
+	top:1px;
+}
+
+#et6{
+	visibility:hidden
+	}
+
+
+
+#dv7 {
+	position: absolute;
+	right: -30px;
+	top: 1187px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele7_ligado {
+    position: absolute;
+    right: -210px;
+    top: 1222px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele7_desligado {
+    position: absolute;
+    right: -210px;
+    top: 1222px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt7{
+    position: absolute;
+    right: 115px;
+    top: 1252px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt7 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt7:active {
+	position:relative;
+	top:1px;
+}
+
+#et7{
+	visibility:hidden
+	}
+
+
+
+#dv8 {
+	position: absolute;
+	right: -30px;
+	top: 1354px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele8_ligado {
+    position: absolute;
+    right: -210px;
+    top: 1389px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele8_desligado {
+    position: absolute;
+    right: -210px;
+    top: 1389px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt8{
+    position: absolute;
+    right: 115px;
+    top: 1419px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt8 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt8:active {
+	position:relative;
+	top:1px;
+}
+
+#et8{
+	visibility:hidden
+	}
+
+
+
+#dv9 {
+	position: absolute;
+	right: -30px;
+	top: 1521px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele9_ligado {
+    position: absolute;
+    right: -210px;
+    top: 1556px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele9_desligado {
+    position: absolute;
+    right: -210px;
+    top: 1556px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt9{
+    position: absolute;
+    right: 115px;
+    top: 1586px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt9 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt9:active {
+	position:relative;
+	top:1px;
+}
+
+#et9{
+	visibility:hidden
+	}
+
+
+
+#dv10 {
+	position: absolute;
+	right: -30px;
+	top: 1688px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele10_ligado {
+    position: absolute;
+    right: -210px;
+    top: 1723px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele10_desligado {
+    position: absolute;
+    right: -210px;
+    top: 1723px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt10{
+    position: absolute;
+    right: 115px;
+    top: 1753px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt10 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt10:active {
+	position:relative;
+	top:1px;
+}
+
+#et10{
+	visibility:hidden
+	}
+
+
+
+#dv11 {
+	position: absolute;
+	right: -30px;
+	top: 1855px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele11_ligado {
+    position: absolute;
+    right: -210px;
+    top: 1890px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele11_desligado {
+    position: absolute;
+    right: -210px;
+    top: 1890px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt11{
+    position: absolute;
+    right: 115px;
+    top: 1920px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt11 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt11:active {
+	position:relative;
+	top:1px;
+}
+
+#et11{
+	visibility:hidden
+	}
+
+
+
+#dv12 {
+	position: absolute;
+	right: -30px;
+	top: 2022px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele12_ligado {
+    position: absolute;
+    right: -210px;
+    top: 2057px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele12_desligado {
+    position: absolute;
+    right: -210px;
+    top: 2057px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt12{
+    position: absolute;
+    right: 115px;
+    top: 2087px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt12 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt12:active {
+	position:relative;
+	top:1px;
+}
+
+#et12{
+	visibility:hidden
+	}
+
+
+
+#dv13 {
+	position: absolute;
+	right: -30px;
+	top: 2189px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele13_ligado {
+    position: absolute;
+    right: -210px;
+    top: 2224px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele13_desligado {
+    position: absolute;
+    right: -210px;
+    top: 2224px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt13{
+    position: absolute;
+    right: 115px;
+    top: 2254px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt13 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt13:active {
+	position:relative;
+	top:1px;
+}
+
+#et13{
+	visibility:hidden
+	}
+
+
+
+#dv14 {
+	position: absolute;
+	right: -30px;
+	top: 2356px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele14_ligado {
+    position: absolute;
+    right: -210px;
+    top: 2391px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/alarme_ligada.png) no-repeat left top;
+}
+
+div.rele14_desligado {
+    position: absolute;
+    right: -210px;
+    top: 2391px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/alarme_desligada.png) no-repeat left top;
+}
+
+#bt14{
+    position: absolute;
+    right: 115px;
+    top: 2421px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt14 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt14:active {
+	position:relative;
+	top:1px;
+}
+
+#et14{
+	visibility:hidden
+	}
+
+
+
+#dv15 {
+	position: absolute;
+	right: -30px;
+	top: 2523px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele15_ligado {
+    position: absolute;
+    right: -210px;
+    top: 2558px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/sirene_ligada.png) no-repeat left top;
+}
+
+div.rele15_desligado {
+    position: absolute;
+    right: -210px;
+    top: 2558px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(http://sites.google.com/site/antoniodorosariomaia136/sirene_desligada.png) no-repeat left top;
+}
+
+#bt15{
+    position: absolute;
+    right: 115px;
+    top: 2588px;
+	 width: 200px;
+    height: 256px;
+}
+
+.bt15 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt15:active {
+	position:relative;
+	top:1px;
+}
+
+#et15{
+	visibility:hidden
+	}
+
+
+
+
+#dv16 {
+	position: absolute;
+	right: -30px;
+	top: 2690px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele16_ligado {
+    position: absolute;
+    right: -210px;
+    top: 2725px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele16_desligado {
+    position: absolute;
+    right: -210px;
+    top: 2725px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt16{
+    position: absolute;
+    right: 115px;
+    top: 2755px;
+	width: 200px;
+    height: 256px;
+}
+
+.bt16 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt16:active {
+	position:relative;
+	top:1px;
+}
+
+#et16{
+	visibility:hidden
+	}
+
+
+
+
+#dv17 {
+	position: absolute;
+	right: -30px;
+	top: 2857px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele17_ligado {
+    position: absolute;
+    right: -210px;
+    top: 2892px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele17_desligado {
+    position: absolute;
+    right: -210px;
+    top: 2892px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt17{
+    position: absolute;
+    right: 115px;
+    top: 2922px;
+	width: 200px;
+    height: 256px;
+}
+
+.bt17 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt17:active {
+	position:relative;
+	top:1px;
+}
+
+#et17{
+	visibility:hidden
+	}
+	
+	
+
+#dv18 {
+	position: absolute;
+	right: -30px;
+	top: 3024px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele18_ligado {
+    position: absolute;
+    right: -210px;
+    top: 3059px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele18_desligado {
+    position: absolute;
+    right: -210px;
+    top: 3059px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt18{
+    position: absolute;
+    right: 115px;
+    top: 3089px;
+	width: 200px;
+    height: 256px;
+}
+
+.bt18 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt18:active {
+	position:relative;
+	top:1px;
+}
+
+#et18{
+	visibility:hidden
+	}	
+	
+	
+
+#dv19 {
+	position: absolute;
+	right: -30px;
+	top: 3191px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 150px; 
+    font-weight:bold;
+}
+
+div.rele19_ligado {
+    position: absolute;
+    right: -210px;
+    top: 3226px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
+}
+
+div.rele19_desligado {
+    position: absolute;
+    right: -210px;
+    top: 3226px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
+}
+
+#bt19{
+    position: absolute;
+    right: 115px;
+    top: 3256px;
+	width: 200px;
+    height: 256px;
+}
+
+.bt19 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+}
+
+.bt19:active {
+	position:relative;
+	top:1px;
+}
+
+#et19{
+	visibility:hidden
+	}	
+
+
+
+
+
+
+
+#dv50 {
+	position: absolute;
+	top: 3501px;
+        width: 350px;		
+	right: -30px;
+        font-weight:bold;
+	font-size:18px;	
+	border-radius: 25px;
+        border: 2px solid #000000;
+	text-align: justify;
+}
