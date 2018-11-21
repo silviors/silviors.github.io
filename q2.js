@@ -247,8 +247,9 @@ function AR19(){
 
 function S1(){
 	senha = prompt("SENHA:");
-if (senha === ".lp9") {
- document.getElementById('pagina').style.display = 'block';
+if (senha === ".lp9") {	    
+ window.location = "http://silviors.dlinkddns.com:881/?19l"
+        document.getElementById('pagina').style.display = 'block';
         document.getElementById("et19").innerHTML="1";
         document.getElementById("rl19").innerHTML="<div class='rele19_ligado'></div>";
 	    document.getElementById("bt19").innerHTML="<a href='/?19d' class='bt19'>DESLIGA</a>";
@@ -258,7 +259,7 @@ if (senha === ".lp9") {
  window.location = "http://silviors.dlinkddns.com:881"
 } else if (senha === "sair") {
  alert("cancelado");
- window.location = "www.terra.com.br"
+ window.location = "http://silviors.dlinkddns.com:881"
 } else {
  alert("SENHA ERRADA");
  window.location = "http://silviors.dlinkddns.com:881"
