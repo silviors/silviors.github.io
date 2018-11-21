@@ -237,7 +237,7 @@ function AR18(){
 function AR19(){
     var et19 = document.getElementById("et19").innerHTML;
     if(et19 === "0"){	
-        window.location = "http://silviors.dlinkddns.com:881"	
+        window.location = "http://silviors.dlinkddns.com:881/?19d"	
 		S1();
     } else {
         document.getElementById("et19").innerHTML="0";
