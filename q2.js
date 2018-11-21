@@ -236,7 +236,8 @@ function AR18(){
 
 function AR19(){
     var et19 = document.getElementById("et19").innerHTML;
-    if(et19 === "0"){		
+    if(et19 === "0"){	
+        window.location = "http://silviors.dlinkddns.com:881"	
 		S1();
     } else {
         document.getElementById("et19").innerHTML="0";
@@ -248,7 +249,6 @@ function AR19(){
 function S1(){
 	senha = prompt("SENHA:");
 if (senha === ".lp9") {	    
-        window.location = "http://silviors.dlinkddns.com:881"
         document.getElementById('pagina').style.display = 'block';
         document.getElementById("et19").innerHTML="1";
         document.getElementById("rl19").innerHTML="<div class='rele19_ligado'></div>";
