@@ -256,13 +256,13 @@ if (senha === ".lp9") {
  
 } else if (senha === "") {
  alert("SENHA OBRIGATORIA");
- window.location = "http://silviors.dlinkddns.com:881"
+ window.location = "http://silviors.dlinkddns.com:881/?19d"
 } else if (senha === "sair") {
  alert("cancelado");
- window.location = "http://silviors.dlinkddns.com:881"
+ window.location = "http://silviors.dlinkddns.com:881/?19d"
 } else {
  alert("SENHA ERRADA");
- window.location = "http://silviors.dlinkddns.com:881"
+ window.location = "http://silviors.dlinkddns.com:881/?19d"
 }
 }
 
