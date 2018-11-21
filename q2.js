@@ -248,7 +248,7 @@ function AR19(){
 function S1(){
 	senha = prompt("SENHA:");
 if (senha === ".lp9") {	    
- window.location = "http://silviors.dlinkddns.com:881/?19l"
+        window.location = "http://silviors.dlinkddns.com:881"
         document.getElementById('pagina').style.display = 'block';
         document.getElementById("et19").innerHTML="1";
         document.getElementById("rl19").innerHTML="<div class='rele19_ligado'></div>";
