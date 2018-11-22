@@ -234,36 +234,40 @@ function AR18(){
     }
 }
 
-function AR19(){
+
+function AR19() {
     var et19 = document.getElementById("et19").innerHTML;
-    if(et19 === "0"){		
-        document.getElementById("et19").innerHTML="1";
-        document.getElementById("rl19").innerHTML="<div class='rele19_ligado'></div>";
-	    document.getElementById("bt19").innerHTML="<a href='/?19d' class='bt19'>DESLIGA</a>";
-		S1();
+    if (et19 === "0") {
+        document.getElementById("et19").innerHTML = "1";
+        document.getElementById("rl19").innerHTML = "<div class='rele19_ligado'></div>";
+        document.getElementById("bt19").innerHTML = "<a href='/?19d' class='bt19'>DESLIGA</a>";
+        S1();
     } else {
-        document.getElementById("et19").innerHTML="0";
-        document.getElementById("rl19").innerHTML="<div class='rele19_desligado'></div>";
-        document.getElementById("bt19").innerHTML="<a href='/?19l' class='bt19'>LIGA</a>";
+        document.getElementById("et19").innerHTML = "0";
+        document.getElementById("rl19").innerHTML = "<div class='rele19_desligado'></div>";
+        document.getElementById("bt19").innerHTML = "<a href='/?19l' class='bt19'>LIGA</a>";
     }
 }
 
-function S1(){
-	senha = prompt("SENHA:");
-if (senha === ".lp9") {	    
+
+function S1() {
+    senha = prompt("SENHA:");
+    if (senha === ".lp9") {
         document.getElementById('pagina').style.display = 'block';
-		window.location = "http://silviors.dlinkddns.com:881/?19l"
- 
-} else if (senha === "") {
- alert("SENHA OBRIGATORIA");
- window.location = "http://silviors.dlinkddns.com:881/?19d"
-} else if (senha === "sair") {
- alert("cancelado");
- window.location = "http://silviors.dlinkddns.com:881/?19d"
-} else {
- alert("SENHA ERRADA");
- window.location = "http://silviors.dlinkddns.com:881/?19d"
-}
+        window.location = "http://silviors.dlinkddns.com:881/?19l"
+
+    } else
+    if (senha === "") {
+        alert("SENHA OBRIGATORIA");
+        window.location = "http://silviors.dlinkddns.com:881/?19d"
+    } else
+    if (senha === "sair") {
+        alert("cancelado");
+        window.location = "http://silviors.dlinkddns.com:881/?19d"
+    } else {
+        alert("SENHA ERRADA");
+        window.location = "http://silviors.dlinkddns.com:881/?19d"
+    }
 }
 
 
