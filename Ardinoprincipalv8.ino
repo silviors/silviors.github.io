@@ -286,9 +286,7 @@ void loop()
           ligado_16 = envioedi("?16l", ligado_16, 160, 161, "?16d");
           ligado_17 = envioedi("?17l", ligado_17, 170, 171, "?17d");
           ligado_18 = envioedi("?18l", ligado_18, 180, 181, "?18d");
-          ligado_19 = controleluz("?19l", dicroicassala, ligado_19, 190, 191, "?19d");
-
-
+          ligado_19 = controlesenha("?19l", ligado_19, "?19d");
 
 
 
@@ -486,6 +484,7 @@ void loop()
           client.println("<script>AR17()</script>");
           client.println("<script>AR18()</script>");
           client.println("<script>AR19()</script>");
+          if (!ligado_19)client.println("<script>S1()</script>");
 
 
           client.println("</div>");
@@ -604,16 +603,17 @@ void enviorf(int valorlido) {
 
   if (par(valorlido))onoff = "LIGA"; else onoff = "DESL";
 
-  if (logacoes[valorlido / 10] + loghora + onoff != logscontrole) {
+  if (logacoes[valorlido / 10] + loghora.substring(0, 5) + onoff != logscontrole) {
 
-    logs[codlog] = logacoes[valorlido / 10] + " - " + loghora + " - " + onoff;
-    logscontrole = logacoes[valorlido / 10] + loghora + onoff;
+    logs[codlog] = "  " + loghora + " - " + onoff + " - " + logacoes[valorlido / 10];
+    logscontrole = logacoes[valorlido / 10] + loghora.substring(0, 5) + onoff;
     codlog = codlog + 1;
     if (codlog > tamlog) {
       envialog();
       codlog = 0;
     }
-    logs[codlog] = "---------------   " + String(codlog) + "   ---------------";
+    //Serial.println(logscontrole);
+    logs[codlog] = "-----------------   " + String(codlog) + "   -----------------";
 
   }
 
@@ -638,6 +638,7 @@ boolean par (int num) {
 
 
 
+          //ligado_19 = controleluz("?19l", dicroicassala, ligado_19, 190, 191, "?19d");
 
 boolean controleluz(String indligar, int nluz, boolean ctrligado, int codigorfl, int codigorfd, String inddesligar) {
   Serial.println(readString);
@@ -654,6 +655,22 @@ boolean controleluz(String indligar, int nluz, boolean ctrligado, int codigorfl,
       digitalWrite(nluz, HIGH);
       ctrligado = true;
       enviorf(codigorfd);
+    }
+  }
+  return ctrligado;
+}
+
+boolean controlesenha(String indligar, boolean ctrligado, String inddesligar) {
+  Serial.println(readString);
+  if (readString.indexOf(indligar) > 0)
+  {
+    ctrligado = false;
+  }
+  else
+  {
+    if (readString.indexOf(inddesligar) > 0)
+    {
+      ctrligado = true;
     }
   }
   return ctrligado;
