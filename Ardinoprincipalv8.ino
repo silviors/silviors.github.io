@@ -356,10 +356,9 @@ void loop()
           client.println("<div id='dv19'>DICROICAS SALA</div>");
 
 
-          client.println("<div id='dv50'>EVENTO - HORARIO - ACAO<br><br>");
+          client.println("<div id='dv50'>HORARIO - ACAO - EVENTO<br><br>");
           for (int i = 0; logs[i]; i++) {
-            client.println(logs[i]);
-            client.println("<br>");
+            client.println(logs[i] + "<br>");
           }
           client.println("</div>");
 
@@ -605,7 +604,7 @@ void enviorf(int valorlido) {
 
   if (logacoes[valorlido / 10] + loghora.substring(0, 5) + onoff != logscontrole) {
 
-    logs[codlog] = "  " + loghora + " - " + onoff + " - " + logacoes[valorlido / 10];
+    logs[codlog] = loghora + " - " + onoff + " - " + logacoes[valorlido / 10];
     logscontrole = logacoes[valorlido / 10] + loghora.substring(0, 5) + onoff;
     codlog = codlog + 1;
     if (codlog > tamlog) {
@@ -613,7 +612,7 @@ void enviorf(int valorlido) {
       codlog = 0;
     }
     //Serial.println(logscontrole);
-    logs[codlog] = "-----------------   " + String(codlog) + "   -----------------";
+    logs[codlog] = "----------------------   " + String(codlog) + "   ----------------------";
 
   }
 

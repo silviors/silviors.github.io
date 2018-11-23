@@ -1457,8 +1457,7 @@ div.rele19_desligado {
         font-weight:bold;
 	font-size:18px;	
 	color: #000000;
-	border-radius: 25px;
-        border: 2px solid #000000;
+	/*border-radius: 25px;
+        border: 2px solid #000000;*/
 	text-align:left;
-	margin-left: 10px;
 }
