@@ -358,7 +358,8 @@ void loop()
 
           client.println("<div id='dv50'>HORARIO - ACAO - EVENTO<br><br>");
           for (int i = 0; logs[i]; i++) {
-            client.println(logs[i] + "<br>");
+            client.println(logs[i]);
+            client.println("<br>");
           }
           client.println("</div>");
 
@@ -612,7 +613,7 @@ void enviorf(int valorlido) {
       codlog = 0;
     }
     //Serial.println(logscontrole);
-    logs[codlog] = "----------------------   " + String(codlog) + "   ----------------------";
+    logs[codlog] = "--------------------   " + String(codlog) + "   --------------------";
 
   }
 
