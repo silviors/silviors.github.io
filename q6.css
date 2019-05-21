@@ -1389,7 +1389,6 @@ div.rele19_ligado {
     width: 300px;
     height: 206px;
     border: none;
-    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
 }
 
 div.rele19_desligado {
@@ -1399,14 +1398,13 @@ div.rele19_desligado {
     width: 300px;
     height: 206px;
     border: none;
-    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
 }
 
 #bt19{
     position: absolute;
-    right: 115px;
+    right: 0px;
     top: 3256px;
-	width: 200px;
+	width: 300px;
     height: 256px;
 }
 
