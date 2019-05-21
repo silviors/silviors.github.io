@@ -245,7 +245,7 @@ function AR19() {
         document.getElementById("et19").innerHTML = "0";
         document.getElementById("rl19").innerHTML = "<div class='rele19_desligado'></div>";
         document.getElementById("bt19").innerHTML = "<a href='/?19l' class='bt19'>ENVIAR</a>";
-        S1();
+       // S1();
     }
 
 }
