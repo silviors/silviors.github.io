@@ -23,7 +23,6 @@ function AR2(){
         document.getElementById("et2").innerHTML="0";
         document.getElementById("rl2").innerHTML="<div class='rele2_desligado'></div>";
         document.getElementById("bt2").innerHTML="<a href='/?2l' class='bt2'>LIGA</a>";
-        window.location.href = 'http://silviors.dlinkddns.com:881'
     }
 }
 
