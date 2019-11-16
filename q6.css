@@ -45,6 +45,7 @@ body {
     width: 350px;
     height: 150px; 
     font-weight:bold;
+	padding-top:10px;
 }
 
 div.rele1_ligado {
