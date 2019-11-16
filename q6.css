@@ -51,7 +51,7 @@ div.rele1_ligado {
     position: absolute;
     right: -210px;
     top: 220px;
-    width: 300px;
+    width: 100px;
     height: 206px;
     border: none;
 }
@@ -60,7 +60,7 @@ div.rele1_desligado {
     position: absolute;
     right: -210px;
     top: 220px;
-    width: 300px;
+    width: 100px;
     height: 206px;
     border: none;
 }
