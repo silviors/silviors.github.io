@@ -90,6 +90,7 @@ div.rele1_desligado {
 	font-family:arial;
 	font-size:24px;
 	font-weight:bold;
+	padding:10px 10px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #ffffff;
     width: 100px;
@@ -132,7 +133,8 @@ div.rele1_desligado {
 	color:#ffffff;
 	font-family:arial;
 	font-size:24px;
-	font-weight:bold;
+	font-weight:bold;	
+	padding:10px 10px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #ffffff;
     width: 100px;
