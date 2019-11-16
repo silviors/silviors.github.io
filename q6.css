@@ -110,9 +110,9 @@ div.rele1_desligado {
 
 #bt60{
     position: absolute;
-    right: 0px;
+    right: -20px;
     top: 250px;
-	width: 180px;
+	width: 250px;
     height: 256px;
 }	
 
