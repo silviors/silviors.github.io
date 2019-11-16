@@ -156,6 +156,7 @@ div.rele1_desligado {
     width: 350px;
     height: 150px; 
     font-weight:bold; 
+	padding-top:10px;
 }
 div.rele2_ligado {
     position: absolute;
