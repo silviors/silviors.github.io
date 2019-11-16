@@ -108,7 +108,7 @@ div.rele1_desligado {
 	
 
 
-#bt1A{
+#bt60{
     position: absolute;
     right: 0px;
     top: 250px;
@@ -117,7 +117,7 @@ div.rele1_desligado {
 }	
 
 
-.bt1A {
+.bt60 {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 0px 0px 0px #ffffff;
@@ -141,7 +141,7 @@ div.rele1_desligado {
     text-align: center;
 }
 
-.bt1A:active {
+.bt60:active {
 	position:relative;
 	top:1px;
 }

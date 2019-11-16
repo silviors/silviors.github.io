@@ -6,12 +6,12 @@ function AR1(){
         document.getElementById("et1").innerHTML="1";
         document.getElementById("rl1").innerHTML="<div class='rele1_ligado'></div>";
 	    document.getElementById("bt1").innerHTML="<a href='/?1d' class='bt1'>DIREITO</a>";		
-	    document.getElementById("bt1A").innerHTML="<a href='/?1dA' class='bt1A'>ESQUERDO</a>";
+	    document.getElementById("bt60").innerHTML="<a href='/?60d' class='bt60'>ESQUERDO</a>";
     } else {
         document.getElementById("et1").innerHTML="0";
         document.getElementById("rl1").innerHTML="<div class='rele1_desligado'></div>";
 	    document.getElementById("bt1").innerHTML="<a href='/?1d' class='bt1'>DIREITO</a>";		
-	    document.getElementById("bt1A").innerHTML="<a href='/?1dA' class='bt1A'>ESQUERDO</a>";
+	    document.getElementById("bt60").innerHTML="<a href='/?60d' class='bt60'>ESQUERDO</a>";
     }
 }
 
