@@ -156,7 +156,7 @@ div.rele1_desligado {
     width: 350px;
     height: 150px; 
     font-weight:bold; 
-	padding-top:10px;
+	padding-top:5px;
 }
 div.rele2_ligado {
     position: absolute;
@@ -230,6 +230,7 @@ div.rele2_desligado {
     width: 350px;
     height: 150px; 
     font-weight:bold; 
+	padding-top:5px; 
 }
 
 div.rele3_ligado {
@@ -304,7 +305,8 @@ div.rele3_desligado {
     border: 2px solid #000000;
     width: 350px;
     height: 150px; 
-    font-weight:bold;
+    font-weight:bold; 
+	padding-top:5px;
 }
 
 div.rele4_ligado {
@@ -380,7 +382,8 @@ div.rele4_desligado {
     border: 2px solid #000000;
     width: 350px;
     height: 150px; 
-    font-weight:bold;
+    font-weight:bold; 
+	padding-top:5px;
 }
 
 div.rele5_ligado {
@@ -455,7 +458,8 @@ div.rele5_desligado {
     border: 2px solid #000000;
     width: 350px;
     height: 150px; 
-    font-weight:bold;
+    font-weight:bold; 
+	padding-top:5px;
 }
 
 div.rele6_ligado {
@@ -529,7 +533,8 @@ div.rele6_desligado {
     border: 2px solid #000000;
     width: 350px;
     height: 150px; 
-    font-weight:bold;
+    font-weight:bold; 
+	padding-top:5px;
 }
 
 div.rele7_ligado {
