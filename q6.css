@@ -67,7 +67,7 @@ div.rele1_desligado {
 
 #bt1{
     position: absolute;
-    right: 200px;
+    right: 150px;
     top: 250px;
 	width: 170px;
     height: 100px;
@@ -90,10 +90,10 @@ div.rele1_desligado {
 	font-family:arial;
 	font-size:24px;
 	font-weight:bold;
-	padding:10px 10px;
+	padding:10px 2px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #ffffff;
-    width: 140px;
+    width: 150px;
     text-align: center;
 }
 
