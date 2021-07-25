@@ -1296,7 +1296,6 @@ div.rele17_ligado {
     width: 300px;
     height: 206px;
     border: none;
-    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_ligada.png) no-repeat left top;
 }
 
 div.rele17_desligado {
@@ -1306,7 +1305,6 @@ div.rele17_desligado {
     width: 300px;
     height: 206px;
     border: none;
-    background: url(http://sites.google.com/site/antoniodorosariomaia136/lampada_desligada.png) no-repeat left top;
 }
 
 #bt17{
