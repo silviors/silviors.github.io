@@ -215,11 +215,11 @@ function AR17(){
     if(et17 === "0"){
         document.getElementById("et17").innerHTML="1";
         document.getElementById("rl17").innerHTML="<div class='rele17_ligado'></div>";
-	document.getElementById("bt17").innerHTML="<a href='/?17d' class='bt17'>DESLIGA</a>";
+	document.getElementById("bt17").innerHTML="<a href='/?17d' class='bt17'>RESET</a>";
     } else {
         document.getElementById("et17").innerHTML="0";
         document.getElementById("rl17").innerHTML="<div class='rele17_desligado'></div>";
-        document.getElementById("bt17").innerHTML="<a href='/?17l' class='bt17'>LIGA</a>";
+        document.getElementById("bt17").innerHTML="<a href='/?17d' class='bt17'>RESET</a>";
     }
 }
 
@@ -246,7 +246,7 @@ function AR19() {
     } else {
         document.getElementById("et19").innerHTML = "0";
         document.getElementById("rl19").innerHTML = "<div class='rele19_desligado'></div>";
-        document.getElementById("bt19").innerHTML = "<a href='/?19l' class='bt19'>ENVIAR</a>";
+        document.getElementById("bt19").innerHTML = "<a href='/?19d' class='bt19'>ENVIAR</a>";
        // S1();
     }
 
