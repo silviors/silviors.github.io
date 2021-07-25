@@ -1309,9 +1309,9 @@ div.rele17_desligado {
 
 #bt17{
     position: absolute;
-    right: 115px;
+    right: 0px;
     top: 2922px;
-	width: 200px;
+	width: 300px;
     height: 256px;
 }
 
