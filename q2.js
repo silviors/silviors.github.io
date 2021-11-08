@@ -163,11 +163,11 @@ function AR13(){
     if(et13 === "0"){
         document.getElementById("et13").innerHTML="1";
         document.getElementById("rl13").innerHTML="<div class='rele13_ligado'></div>";
-	document.getElementById("bt13").innerHTML="<a href='/?13d' class='bt13'>DESLIGA</a>";
+	document.getElementById("bt13").innerHTML="<a href='/?13d' class='bt13'>REINICIA</a>";
     } else {
         document.getElementById("et13").innerHTML="0";
         document.getElementById("rl13").innerHTML="<div class='rele13_desligado'></div>";
-        document.getElementById("bt13").innerHTML="<a href='/?13l' class='bt13'>LIGA</a>";
+        document.getElementById("bt13").innerHTML="<a href='/?13d' class='bt13'>REINICIA</a>";
     }
 }
 
